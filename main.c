@@ -4,6 +4,7 @@
 #include <string.h>
 #include <malloc.h>
 #include <memory.h>
+#include <new.h>
 struct spis {char surname[20]; char middlename[20]; char name [20];
     int bal1, bal2, bal3, bal4; struct spis *v1; struct spis *v2;};
 void create (void);
@@ -27,7 +28,8 @@ int main()
         puts("6 - save list to file");
         puts("7 - load list from file");
         puts("0 - exit");
-        c=_getch();
+//            c=_getch();
+        scanf_s("%c", &c);
         switch(c)
         {case '1':create();break;
             case '2':list(head); break;
@@ -49,7 +51,7 @@ void create (void)
     pred=NULL;
     printf("\n Insert information about students \n");
     do
-    {p=(spis *)malloc(sizeof(spis));
+    {p=(struct spis *)malloc(sizeof(struct spis));
         printf ("\n Surname: "); scanf_s ("%s", &p->surname);
         printf (" Name: "); scanf_s ("%s", &p->name);
         printf(" Middle name: "); scanf_s("%s", &p->middlename);
@@ -94,8 +96,9 @@ void list (struct spis *p)
 void add(void)
 {struct spis *p, *pn;
 //    clrscr();
+    printf("\n\n\n");
     do
-    {pn=(spis *)malloc(sizeof(spis));
+    {pn=(struct spis *)malloc(sizeof(struct spis));
         printf ("\n Surname: "); scanf_s ("%s", &pn->surname);
         printf (" Name: "); scanf_s ("%s", &pn->name);
         printf(" Middle name: "); scanf_s("%s", &pn->middlename);
@@ -115,6 +118,7 @@ void add(void)
 
 void find (void)
 {
+    printf("\n\n\n");
  struct   spis *p, *z;
     int x=0;
     char y[20], c;
@@ -128,7 +132,8 @@ void find (void)
             printf("\n %s \t| %s | %s | %d | %d | %d | %d ", p->surname, p->name, p->middlename,
                    p->bal1, p->bal2, p->bal3, p->bal4);
             printf("\n Correct this record? - Y/N");
-            c=_getch();
+//            c=_getch();
+            scanf_s("%c", &c);
             if (c=='y')
             {printf("\n Maths: "); scanf_s("%d", &p->bal1);
                 printf(" English: "); scanf_s("%d", &p->bal2);
@@ -148,6 +153,7 @@ void find (void)
 
 void del(void)
 {//clrscr();
+    printf("\n\n\n");
     struct spis *p, *temp;
     int j=0;
     char c;
@@ -161,7 +167,8 @@ void del(void)
             printf("\n %s \t| %s | %s | %d | %d | %d | %d ", p->surname, p->name, p->middlename,
                    p->bal1, p->bal2, p->bal3, p->bal4);
             printf("Delete? - Y/N");
-            c=_getch();
+//            c=_getch();
+            scanf_s("%c", &c);
             if (c=='y')
             {if (p==head)
                 {head=p->v2;
@@ -196,6 +203,7 @@ void del(void)
 
 void save()
 {//clrscr();
+    printf("\n\n\n");
   struct  spis *p=head;
     FILE *output;
     if(head==NULL)
@@ -207,7 +215,7 @@ void save()
     {output=fopen("Output.txt","wb");
         if(output!=NULL)
         {while(p!=NULL)
-            {fwrite(p, sizeof(spis),1,output);
+            {fwrite(p, sizeof(struct spis),1,output);
                 p=p->v2;
             }
             printf("\n Information succesfuly saved");
@@ -231,7 +239,7 @@ void load()
     if(input!=NULL)
     {do
         {p=new spis;
-            fread (p, sizeof(spis), 1, input);
+            fread (p, sizeof(struct spis), 1, input);
             p->v1=NULL;
             p->v2=NULL;
             p->v1=r;
