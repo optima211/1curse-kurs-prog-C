@@ -4,6 +4,7 @@
 #include <string.h>
 #include <malloc.h>
 #include <memory.h>
+#include<math.h>
 #include <new.h>
 
 struct zach {
@@ -33,7 +34,6 @@ struct spis *head, *tail;
 #define FILE_NAME "output.txt"
 
 int main() {
-
     load();
     char c;
     while (1) {
@@ -45,7 +45,6 @@ int main() {
         puts("6 - save list to file");
         puts("0 - exit");
         c = _getch();
-//        scanf_s("%c",&c,1);
         switch(c) {
             case '1':createlist();break;
             case '2':viewlist(); break;
@@ -57,7 +56,6 @@ int main() {
             default: printf("incorrect mode %d\n",c);
         }
         puts("");
-
     }
 }
 

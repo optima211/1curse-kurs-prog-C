@@ -1,0 +1,3 @@
+C:/Users/nedmk/CLionProjects/kurs-C/cmake-build-debug/CMakeFiles/kurs_C.dir
+C:/Users/nedmk/CLionProjects/kurs-C/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/nedmk/CLionProjects/kurs-C/cmake-build-debug/CMakeFiles/rebuild_cache.dir

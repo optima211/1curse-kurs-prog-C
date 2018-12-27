@@ -1,0 +1,130 @@
+The system is: Windows - 10.0.17763 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.16.27025.1 для x86
+(C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.16.27025.1
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "C:/Users/nedmk/CLionProjects/kurs-C/cmake-build-debug/CMakeFiles/3.13.1/CompilerIdC/CMakeCCompilerId.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/nedmk/CLionProjects/kurs-C/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/nologo" "cmTC_51be8\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_51be8.dir\build.make /nologo -L                  CMakeFiles\cmTC_51be8.dir\build
+Building C object CMakeFiles/cmTC_51be8.dir/testCCompiler.c.obj
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @C:\Users\nedmk\AppData\Local\Temp\nmD8BE.tmp
+testCCompiler.c
+Linking C executable cmTC_51be8.exe
+	"C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_51be8.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_51be8.dir\objects1.rsp @C:\Users\nedmk\AppData\Local\Temp\nmDA75.tmp
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/nedmk/CLionProjects/kurs-C/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/nologo" "cmTC_c22ed\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_c22ed.dir\build.make /nologo -L                  CMakeFiles\cmTC_c22ed.dir\build
+Building C object CMakeFiles/cmTC_c22ed.dir/CMakeCCompilerABI.c.obj
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @C:\Users\nedmk\AppData\Local\Temp\nmE159.tmp
+CMakeCCompilerABI.c
+Linking C executable cmTC_c22ed.exe
+	"C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_c22ed.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_c22ed.dir\objects1.rsp @C:\Users\nedmk\AppData\Local\Temp\nmE1C8.tmp
+
+
+
+
+Detecting C [] compiler features compiled with the following output:
+Change Dir: C:/Users/nedmk/CLionProjects/kurs-C/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/nologo" "cmTC_893f0\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_893f0.dir\build.make /nologo -L                  CMakeFiles\cmTC_893f0.dir\build
+Building C object CMakeFiles/cmTC_893f0.dir/feature_tests.c.obj
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @C:\Users\nedmk\AppData\Local\Temp\nmE997.tmp
+feature_tests.c
+Linking C executable cmTC_893f0.exe
+	"C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_893f0.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_893f0.dir\objects1.rsp @C:\Users\nedmk\AppData\Local\Temp\nmEA24.tmp
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_variadic_macros
+The system is: Windows - 10.0.17763 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe 
+Build flags: /DWIN32;/D_WINDOWS;/W3
+Id flags:  
+
+The output was:
+0
+Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.16.27025.1 для x86
+(C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.16.27025.1
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "C:/Users/nedmk/CLionProjects/kurs-C/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/nedmk/CLionProjects/kurs-C/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/nologo" "cmTC_93893\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_93893.dir\build.make /nologo -L                  CMakeFiles\cmTC_93893.dir\build
+Building C object CMakeFiles/cmTC_93893.dir/testCCompiler.c.obj
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @C:\Users\nedmk\AppData\Local\Temp\nm7BCA.tmp
+testCCompiler.c
+Linking C executable cmTC_93893.exe
+	"C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_93893.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_93893.dir\objects1.rsp @C:\Users\nedmk\AppData\Local\Temp\nm7D71.tmp
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/nedmk/CLionProjects/kurs-C/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/nologo" "cmTC_2c4cf\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_2c4cf.dir\build.make /nologo -L                  CMakeFiles\cmTC_2c4cf.dir\build
+Building C object CMakeFiles/cmTC_2c4cf.dir/CMakeCCompilerABI.c.obj
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @C:\Users\nedmk\AppData\Local\Temp\nm87A1.tmp
+CMakeCCompilerABI.c
+Linking C executable cmTC_2c4cf.exe
+	"C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_2c4cf.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_2c4cf.dir\objects1.rsp @C:\Users\nedmk\AppData\Local\Temp\nm887D.tmp
+
+
+
+
+Detecting C [] compiler features compiled with the following output:
+Change Dir: C:/Users/nedmk/CLionProjects/kurs-C/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/nologo" "cmTC_609a2\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_609a2.dir\build.make /nologo -L                  CMakeFiles\cmTC_609a2.dir\build
+Building C object CMakeFiles/cmTC_609a2.dir/feature_tests.c.obj
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @C:\Users\nedmk\AppData\Local\Temp\nm90BA.tmp
+feature_tests.c
+Linking C executable cmTC_609a2.exe
+	"C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_609a2.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_609a2.dir\objects1.rsp @C:\Users\nedmk\AppData\Local\Temp\nm9138.tmp
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_variadic_macros
